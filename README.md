@@ -32,6 +32,12 @@ Some special characters will cause translation to break. Use Firetongue's specia
 <RE>[$SOME_FLAG] = Replace with the value of the flag
 ```
 
+## Localization Tags (Unfinished)
+| Locale Tag | Language and Country |  
+| :------------- | :----------: |
+| af-NA | Afrikaans (Namibia) |
+| af-ZA | Afrikaans (South Africa) |
+
 ## Last Things
 
 Credits go to [EliteMasterEric](https://github.com/EliteMasterEric) for the [original repository](https://github.com/EnigmaEngine/EnigmaTranslation).
