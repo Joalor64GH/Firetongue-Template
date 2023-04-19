@@ -1,0 +1,97 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- 
+  This XML contains metadata used for translation.
+  Example: https://github.com/larsiusprime/firetongue/blob/dev/samples/openfl/Assets/locales/index.xml
+-->
+<data>
+  <!--
+    The file tag loads data into different contexts, indicated by their ID.
+    You can use different contexts to split XML files into categories, like "options" or "play"
+  -->
+
+  <file id="base" value="base.csv" />
+
+  <!--
+    The locale tag defines the language and country of each translation.
+  -->
+
+  <!-- English (United States) -->
+	<locale id="en-US" is_default="true" sort="0">	
+    <!-- The contributes tag immortalizes the awesome people who worked on the translation. -->
+		<contributors value="ninjamuffin99, MasterEric"/>
+    <!-- The ui tag contains strings needed for basic UI needed for the language menu. -->
+		<ui language="Language" region="Region" accept="Okay" />
+    <!--
+      The label tag includes localized names for each language and region.
+      For example, if the "fr-FR" locale contained the "en-US" label tag,
+      that tag would include the language "Anglais" and the region "États-Unis".
+    -->
+		<label id="en-US,en-GB,en-CA" language="English" region="United States"/>
+    <label id="pt-BR" language="Portuguese" region="Brazil"/>
+    <label id="fr-FR,fr-CA" language="French" region="France"/>
+    <label id="es-ES" language="Spanish" region="Spain"/>
+    <label id="yr-HR" language="Pirate Speak" region="Seven Seas"/>
+	</locale>
+
+  <!-- Portuguese (Brazil) -->
+  <locale id="pt-BR" sort="1">
+    <contributors value="None"/>
+    <ui language="Língua" region="Região" accept="OK" />
+    <label id="en-US,en-GB,en-CA" language="Inglês" region="Estados Unidos"/>
+    <label id="pt-BR" language="Português" region="Brasil"/>
+    <label id="fr-FR,fr-CA" language="Francês" region="França"/>
+    <label id="es-ES" language="Espanhol" region="Espanha"/>
+    <label id="yr-HR" language="Pirate Speak" region="Seven Seas"/>
+  </locale>
+
+  <!-- French (France) -->
+  <locale id="fr-FR" sort="2">
+    <contributors value="None"/>
+    <ui language="Langue" region="Région" accept="OK" />
+    <label id="en-US,en-GB,en-CA" language="Anglais" region="États-Unis"/>
+    <label id="pt-BR" language="Portugais" region="Brésil"/>
+    <label id="fr-FR,fr-CA" language="Français" region="France"/>
+    <label id="es-ES" language="Espagnol" region="Espagne"/>
+    <label id="yr-HR" language="Pirate Speak" region="Seven Seas"/>
+  </locale>
+
+  <!-- Spanish (Spain) -->
+  <locale id="es-ES" sort="3">
+    <contributors value="None"/>
+    <ui language="Idioma" region="Región" accept="OK" />
+    <label id="en-US,en-GB,en-CA" language="Inglés" region="Estados Unidos"/>
+    <label id="pt-BR" language="Portugués" region="Brasil"/>
+    <label id="fr-FR,fr-CA" language="Francés" region="Francia"/>
+    <label id="es-ES" language="Español" region="España"/>
+    <label id="yr-HR" language="Pirate Speak" region="Seven Seas"/>
+  </locale>
+
+  <!-- Pirate Speak (Seven Seas) -->
+  <locale id="yr-HR" sort="4">
+    <contributors value="MasterEric"/>
+    <ui language="Tongue" region="Empire" accept="Aye!" />
+    <label id="en-US,en-GB,en-CA" language="English" region="United States"/>
+    <label id="pt-BR" language="Portuguese" region="Brazil"/>
+    <label id="fr-FR,fr-CA" language="French" region="France"/>
+    <label id="es-ES" language="Spanish" region="Spain"/>
+    <label id="yr-HR" language="Pirate Speak" region="Seven Seas"/>
+  </locale>
+  
+	<!---
+	Any text blurbs that the translation interface itself needs are stored here rather than
+	in text files, to avoid the boot-strapping problem of having to load a locale in order
+	to display locale interface text in that locale.
+	
+	A good practice is that this note should always display in the currently selected locale as
+	a tooltip over various translations.
+	-->
+	<note id="beta">
+		<!--This means that the translation has not been properly integrated yet-->
+		<text id="en-US,en-GB,en-CA,yo-DA" title="BETA" body="This translation is still in beta. Untranslated text, missing characters, and other visual glitches are very likely not the fault of the translator."/>
+    <text id="pt-BR" title="BETA" body="Esta tradução ainda está em beta. Texto não traduzido, caracteres ausentes e outras falhas visuais muito provavelmente não são culpa do tradutor."/>
+    <text id="fr-FR,fr-CA" title="BETA" body="Cette traduction est encore en bêta. Texte non traduit, caractères manquants et autres problèmes visuels sont probablement le problème du traducteur."/>
+    <text id="es-ES" title="BETA" body="Esta traducción está aún en béta. Texto no traducido, caracteres ausentes y otros problemas visuales son probablemente el problema del traductor."/>
+    <text id="yr-HR" title="BETA" body="Avast, this translation be still in beta. Landlubber text, missin' letters, 'n other visual tomfoolery are mighty likely nah the fault o' the scribe."/>
+	</note>
+
+</data>
