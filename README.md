@@ -32,11 +32,8 @@ Some special characters will cause translation to break. Use Firetongue's specia
 <RE>[$SOME_FLAG] = Replace with the value of the flag
 ```
 
-## Localization Tags (Unfinished)
-| Locale Tag | Language and Country |  
-| :------------- | :----------: |
-| af-NA | Afrikaans (Namibia) |
-| af-ZA | Afrikaans (South Africa) |
+## Localization Tags
+[**Click Here**](https://docs.google.com/document/d/e/2PACX-1vT8orEEu-Tpsnd_wjdZk9BHcVAgpuDczHEJRUm_kHRH4Ln07QgyYwMDNYrnsmCObAh_2PxQNYXSNjk4/pub)
 
 ## Last Things
 
